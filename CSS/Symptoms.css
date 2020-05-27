@@ -1,0 +1,132 @@
+h1, h3, h4 {
+  text-align: center;
+  color: red;
+}
+
+#heading {
+  background-image: url("../Images/Pups/CoverPup.jpg");
+  background-color: rgba(100, 100, 100, 0.7);
+  background-position: 50% 65%;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: block;
+  padding-top: 5vh;
+  height: 45vh;
+  color: white;
+  text-align: right;
+}
+
+#heading h1 {
+  font-size: 2.5rem;
+  margin-right: 10vw;
+}
+
+#heading h4 {
+  font-size: 1.25rem;
+  margin-right: 10vw;
+}
+
+/* BREED DROPDOWN LIST */
+#breedDropdownList {
+  margin-left: 10px;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 15px;
+  border: 0;
+  font-size: 1.25rem;
+}
+
+/* END BREED DROPDOWN LIST */
+
+/* AGE AND WEIGHT */
+.num_input_container {
+  margin: 0;
+}
+
+.num_input_container > div > div {
+  margin-left: 10px;
+}
+
+#age {
+  padding-right: 50px;
+}
+
+#weight {
+  padding-left: 50px;
+}
+
+#weight > div > input {
+  border-radius: 15px;
+}
+
+.num_input {
+  width: 5rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.step_left {
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.step_right {
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* END AGE AND WEIGHT */
+.submit_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.submit_btn {
+  width: 15rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 3px 3px 10px rgba(66, 105, 255, 0.5);
+          box-shadow: 3px 3px 10px rgba(66, 105, 255, 0.5);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#submit_text {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.submit_btn:hover {
+  opacity: 0.5;
+}
+
+.submit_btn:hover #submit_text {
+  color: #4269ff;
+  text-decoration: underline;
+}

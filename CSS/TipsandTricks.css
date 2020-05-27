@@ -1,0 +1,237 @@
+:root {
+  font-size: 20px;
+  font-family: 'Bebas Neue';
+  --text-primary: #FF6425;
+  --text-secondary: #4265ff;
+  --bg-primary: linear-gradient(to bottom right, #ffae00, rgb(255, 0, 179));
+  --primary: rgb(255, 100, 37);
+  --secondary: rgb(66, 101, 255);
+  --font-secondary: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*  FONT FAMILY AND FACE
+        - Bebas Neue
+        - Bebas Neue Bold
+        - Bebas Neue Light
+        - Bebas Neue Book
+*/
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../BebasNeue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Bebas Neue Bold";
+  src: url("../BebasNeue/BebasNeue-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Bebas Neue Light";
+  src: url("../BebasNeue/BebasNeue-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("../BebasNeue/BebasNeue-Book.ttf");
+}
+
+/* END FONT FAMILY & FACE */
+/* BODY */
+body {
+  color: #FF6425;
+  font-family: "Bebas Neue Book";
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+/* END BODY */
+/*  HORIZONTAL NAVIGATION BAR
+        - navbar
+        - navbar-nav>li
+        - navbar-toggler
+        - brand-img
+*/
+.navbar {
+  padding: 1vh 5vw;
+  font-size: 1.75rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px grey;
+          box-shadow: 5px 5px 5px grey;
+}
+
+.navbar-nav > li {
+  border-right: 1.25px solid rgba(255, 255, 255, 0.5);
+  line-height: 1rem;
+}
+
+.navbar-nav > li:last-child {
+  border-right: 0;
+}
+
+.navbar-toggler {
+  border: 2px solid;
+}
+
+.brand-img {
+  height: 4rem;
+}
+
+/* END NAVIGATION BAR */
+.page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.multi-grad {
+  background: -webkit-gradient(linear, left top, right bottom, from(#4265ff), to(#270047));
+  background: linear-gradient(to bottom right, #4265ff, #270047);
+  background-attachment: fixed;
+}
+
+.content-wrap {
+  background-color: white;
+  border-bottom: 3px solid #c9c9c9;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+.jumbotron {
+  background-image: url("../img/pups/pup121.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  height: 50vh;
+  max-width: 100%;
+}
+
+.jumbotron > h1 {
+  text-align: center;
+  font-size: 10vw;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 0 5vh;
+  background-color: lightgray;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.page-container {
+  min-height: 100%;
+  font-family: var(--font-secondary);
+  color: navy;
+  margin: 1rem 5%;
+}
+
+#top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Carousel */
+/* Articles */
+/* Resource Links */
+.links {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.resourceLink {
+  margin-bottom: .5rem;
+  height: 100px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.resourceLink > a {
+  float: left;
+  font-size: 1rem;
+}
+
+.resourceLink > a > img {
+  height: 100px;
+  width: 100%;
+  float: left;
+  padding-left: 0;
+  border-radius: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.resourceLink:hover {
+  -webkit-box-shadow: 0 0 3px lightgrey;
+          box-shadow: 0 0 3px lightgrey;
+  border-radius: 15px;
+}
+
+/* Videos */
+.embedVideo {
+  height: 375px;
+  width: 600px;
+}
+
+.thumbnailVideo {
+  height: 75px;
+  width: 140px;
+  margin: 0 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.thumbnailVideo > img {
+  height: 75px;
+  width: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.thumbnailVideo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 1;
+}
+
+.active_thumbnail {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}
+
+#lesson1 {
+  display: block;
+}
+
+#lesson2 {
+  display: none;
+}
+
+#lesson3 {
+  display: none;
+}
+
+#lesson4 {
+  display: none;
+}
+
+#lesson5 {
+  display: none;
+}
+/*# sourceMappingURL=tipsandtricks.css.map */

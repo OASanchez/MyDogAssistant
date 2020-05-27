@@ -1,0 +1,109 @@
+@import "Main.css";
+
+#home {
+  padding-bottom: 10vh;
+}
+
+#heading {
+  background-image: url("../Images/Pups/CoverPup.jpg");
+  background-color: rgba(100, 100, 100, 0.7);
+  background-position: 50% 65%;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 5vh;
+  height: 45vh;
+  color: white;
+  text-align: right;
+}
+
+#heading h1 {
+  font-size: 2.5rem;
+  margin-right: 10vw;
+}
+
+#heading h4 {
+  font-size: 1.25rem;
+  margin-right: 10vw;
+}
+
+.bubbles {
+  position: static;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bubble {
+  -webkit-box-shadow: 1px 1px 5px #4265ff;
+          box-shadow: 1px 1px 5px #4265ff;
+  height: 9rem;
+  width: 11.5rem;
+  margin-top: 10pt;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--primary);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+  font-size: 2.25rem;
+  color: white;
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.bubble:hover {
+  -webkit-box-shadow: 1px 1px 15px #FF6425;
+          box-shadow: 1px 1px 15px #FF6425;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  color: white;
+  text-decoration: none;
+}
+
+#divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+}
+
+#arrow-down {
+  color: #FF6425;
+  text-shadow: 1px 1px 5px #4265ff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+#arrow-down:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}

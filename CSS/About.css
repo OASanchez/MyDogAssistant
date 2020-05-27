@@ -1,0 +1,94 @@
+@import "Main.css";
+html,
+body{
+    margin: 0;
+    background-color: white !important;
+}
+
+/* START OF DEFAULT ELEMENT CHANGES */
+h1 {
+    font-family: 'Bebas Neue Bold';
+    font-size: 100px;
+    margin-left: 1%;
+}
+
+h2 {
+    font-familY: 'Bebas Neue Bold';
+    font-size: 50px;
+    text-align: center;
+}
+
+.Disclaimer_Txt {
+    font-family: 'Lucida Bright';
+    color: red;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.sources a {
+    font-family: 'Lucida Bright';
+    font-size: 20px;
+    margin-bottom: 100%;
+}
+.sources a:visited {
+    color: var(--text-secondary);
+    content:"\a";
+    white-space: pre;
+}
+
+
+/* END OF DEFAULT ELEMENT CHANGES */
+
+
+/* START OF GRID STYLING */
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-familY: 'Lucida Bright';
+    font-size: 20px;
+    text-align: left;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+.cover-photo {
+    width: 325px;
+    height: 375px;
+    border: 3px solid;
+    display: block;
+    margin: auto;
+}
+
+.Osvaldo {
+    grid-column: 1;
+    padding: 50px;
+}
+
+.Nick {
+    grid-column: 2;
+    padding: 50px;
+}
+
+.Josh {
+    grid-column: 3;
+    padding: 50px;
+}
+
+.Parfait {
+    grid-column: 4;
+    padding: 50px;
+}
+
+#b {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+a:visited {
+    color: var(--text-secondary);
+}
+/* END OF GRID STYLING */

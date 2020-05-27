@@ -1,0 +1,175 @@
+@import "Main.css";
+
+html,
+body {
+  margin: 0;
+}
+
+/* START OF DEFAULT ELEMENT CHANGES */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* END OF DEFAULT ELEMENT CHANGES */
+/* BREAD CRUMBS STYLING */
+.breadcrumbs-item {
+  display: inline-block;
+  font-family: "Bebas Neue";
+  font-size: 50px;
+}
+
+.breadcrumbs-item:not(:last-of-type)::after {
+  content: '>';
+  margin: 0 5px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: var(--text-secondary);
+}
+
+.breadcrumbs-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs-link--active {
+  color: #000000;
+  font-weight: 500;
+}
+
+/* END OF BREAD CRUMBS */
+
+/* BACKGROUND STYLING */
+.bg {
+  background: url(../Images/Paw_BG.png) repeat center center fixed;
+}
+
+.wbg {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* END OF BACKGROUND STYLING */
+/* START OF GRID STYLING */
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  font-family: var(--font-secondary);
+  color: black;
+}
+
+.left {
+  grid-column-start: 1;
+  padding-left: 1rem;
+}
+
+.right {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.gImage {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gDisease {
+  padding: 0 1.5rem;
+}
+
+.gDisease > h1 {
+  text-align: left;
+  padding-right: 2rem;
+  color: var(--primary);
+}
+
+.gDisease p {
+  font-size: 1rem;
+  text-align: left;
+}
+
+#jumpTo {
+  border-bottom: 1px solid rgba(105, 105, 105, 0.5);
+}
+
+#jumpTo > li {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.gRiskList > h3 {
+  margin: 0 1.5rem;
+  text-align: left;
+}
+
+.gRiskList li {
+  font-family: var(--font-secondary);
+  font-size: 1.25rem;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+.gTransmission {
+  padding: 0 1.5rem;
+}
+
+.gTransmission > h2, .gTransmission > p {
+  text-align: left;
+}
+
+.gPrevention {
+  padding: 0 1.5rem;
+}
+
+.gPrevention > h2, .gPrevention > p {
+  text-align: left;
+}
+
+.gTreatment {
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.gTreatment > h2, .gTreatment > p {
+  text-align: left;
+}
+
+/* END OF GRID STYLING */
+
+/* CLICKED DISEASE IMAGE STYLING */
+.dContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clicked-image {
+  max-width: 30vw;
+}
+
+/* END OF CLICKED DISEASE IMAGE STYLING */
+
+/* CLICKED DISEASE LIST STYLING FOR TRANS, PREV, AND TREAT */
+.cd-list {
+  font-family: 'Lucida Bright';
+  font-size: 21px;
+  text-align: left;
+}

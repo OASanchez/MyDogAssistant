@@ -1,0 +1,66 @@
+:root {
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    --text-primary: #000000;
+    --text-secondary: #FF6425;
+    --bg-primary: linear-gradient(to bottom right, #ffae00, rgb(255, 0, 179));
+    --primary: #FF6425;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../Fonts/BebasNeue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Bebas Neue Bold";
+    src: url("../Fonts/BebasNeue/BebasNeue-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url("../Fonts/BebasNeue/BebasNeue-Light.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Bebas Neue Book";
+    src: url("../Fonts/BebasNeue/BebasNeue-Book.ttf");
+}
+
+@font-face {
+    font-family: "Lucida Bright";
+    src: url("../Fonts/Lucida/LucidaBrightRegular.ttf")
+}
+
+.navbar {
+    padding: 1vh 5vw;
+    font-size: 1.75rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav>li {
+    border-right: 1.25px solid rgba(255, 255, 255, 0.5);
+    line-height: 1rem;
+}
+
+.navbar-nav>li:last-child {
+    border-right: 0;
+}
+
+.navbar-toggler {
+    border: 2px solid;
+}
+
+.brand-img {
+    height: 4rem;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding: 0 5vh;
+    background-color: lightgray;
+    text-align: center;
+}

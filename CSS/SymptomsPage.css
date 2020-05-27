@@ -1,0 +1,264 @@
+.container {
+  font-family: var(--font-secondary);
+  color: black;
+}
+
+h1, h3 {
+  text-align: center;
+  color: black;
+}
+
+#heading {
+  background-image: url("../Images/Pups/CoverPup2.jpg");
+  background-color: rgba(43, 43, 43, 0.9);
+  background-position: 50% 38%;
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: block;
+  padding-top: 5vh;
+  height: 45vh;
+  color: white;
+  text-align: right;
+  font-family: var(--font-secondary);
+}
+
+#heading h1 {
+  font-size: 2.5rem;
+  margin-right: 10vw;
+  color: white;
+  text-align: right;
+}
+
+#heading h4 {
+  font-size: 1.25rem;
+  margin-right: 10vw;
+  text-align: right;
+}
+
+.head {
+  font-size: 1.5rem;
+}
+
+label {
+  margin: 0;
+  vertical-align: middle;
+}
+
+/* BREED DROPDOWN LIST */
+#breedDropdownList {
+  margin-left: 10px;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 15px;
+  border: 0;
+  font-size: 1.1rem;
+  -webkit-box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+          box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+  outline: 0;
+}
+
+/* END BREED DROPDOWN LIST */
+
+/* AGE AND WEIGHT */
+.num_input_container {
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: baseline;
+}
+
+.num_input_container > div > div {
+  margin-left: 10px;
+}
+
+#age {
+  margin-top: 3rem;
+  padding-right: 50px;
+}
+
+#age > div {
+  -webkit-box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+          box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+  border-radius: 15px;
+}
+
+#age > div > button {
+  outline: 0;
+}
+
+#weight {
+  margin-top: 3rem;
+  padding-left: 50px;
+}
+
+#weight > div > input {
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+          box-shadow: 3px 3px 10px rgba(105, 105, 105, 0.5);
+}
+
+.num_input {
+  width: 5rem;
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+.step_left {
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.step_right {
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  border-radius: 0px 15px 15px 0px;
+}
+
+/* END AGE AND WEIGHT */
+.symptom_input_container {
+  background-color: rgba(66, 101, 255, 0.3);
+  border-radius: 25px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+
+.symptoms {
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.submit_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.submit_btn {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+  height: 3rem;
+  background-color: #ff6425;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px rgba(255, 100, 37, 0.5);
+          box-shadow: 3px 3px 10px rgba(255, 100, 37, 0.5);
+  font-size: 1.25rem;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.submit_btn:hover {
+  background-color: rgba(255, 100, 37, 0.5);
+  text-decoration: underline;
+}
+
+.area_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.symptom_category {
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  max-width: 32%;
+  border-radius: 10px;
+}
+
+.active, .symptom_category:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.checkmark-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.checkmark-label input {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.checkmark-label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.checkmark-label input:checked ~ .checkmark {
+  background-color: var(--secondary);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkmark-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkmark-label .checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 8px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.display_checked {
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-rule: 3px solid #666;
+          column-rule: 3px solid #666;
+  font-size: .75rem;
+  text-decoration: none;
+  list-style-type: none;
+}

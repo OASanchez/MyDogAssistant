@@ -31,3 +31,10 @@ A SQL file is provided in the SQL folder. Running this file on an updated versio
   <li>Ensure proper connections to database and to web server, and open web hosting link on web browser (when using localhost this could look like "localhost/CapstoneSpring2020")</li>
 </ol>
 <small>(If you have any questions or problems, please feel free to post an "issue" or contact us to receive help)</small>
+
+<h2>Running Screenshots</h2>
+<hr>
+<h3>Home Page</h3>
+![Home1](https://user-images.githubusercontent.com/55261374/152667359-93d0731f-d904-43f8-b241-6f8df4e86a74.png)
+![Home2](https://user-images.githubusercontent.com/55261374/152667361-dc9f0374-7c58-456f-8c07-4e20713d82fd.png)
+

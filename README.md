@@ -33,8 +33,28 @@ A SQL file is provided in the SQL folder. Running this file on an updated versio
 <small>(If you have any questions or problems, please feel free to post an "issue" or contact us to receive help)</small>
 
 <h2>Running Screenshots</h2>
-<hr>
 <h3>Home Page</h3>
 ![Home1](https://user-images.githubusercontent.com/55261374/152667359-93d0731f-d904-43f8-b241-6f8df4e86a74.png)
 ![Home2](https://user-images.githubusercontent.com/55261374/152667361-dc9f0374-7c58-456f-8c07-4e20713d82fd.png)
+
+<h3>Symptoms Page</h3>
+![Symptoms1](https://user-images.githubusercontent.com/55261374/152667394-3513921d-b625-4116-bf1e-f77197e71cc9.png)
+![Symptoms2](https://user-images.githubusercontent.com/55261374/152667396-efc8e6c6-f4c6-4176-8a30-bb6e6ece0ea3.png)
+
+<h3>Results Page</h3>
+![Results1](https://user-images.githubusercontent.com/55261374/152667406-5a906f4c-c599-49d5-ae7c-d647348b76ff.png)
+![Results2](https://user-images.githubusercontent.com/55261374/152667407-fa862df3-6eca-471a-99a8-51548e89f4c4.png)
+
+<h4>Breed Specific Page</h4>
+![Breed](https://user-images.githubusercontent.com/55261374/152667419-82d11290-69a9-4a9d-aedd-95a0762bd0d5.png)
+
+<h3>Disease List</h3>
+![Disease List](https://user-images.githubusercontent.com/55261374/152667452-9186ec6d-beb5-43ca-ac73-2f4b650cb80c.png)
+
+<h3>Specific Disease</h3>
+![Specific_Disease1](https://user-images.githubusercontent.com/55261374/152667459-a231d69d-1bb9-4b0a-b95f-c31362aca184.png)
+![Specific_Disease2](https://user-images.githubusercontent.com/55261374/152667460-4e89bd7c-94af-470c-89d6-8ac127c15db7.png)
+
+<h3>Tips Page</h3>
+![Tips](https://user-images.githubusercontent.com/55261374/152667466-66f7ddd7-aec6-4ba3-99fd-8f6d9e1a6bd1.png)
 
